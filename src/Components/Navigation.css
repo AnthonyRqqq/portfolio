@@ -19,11 +19,11 @@
 }
 
 .link-item {
-    color: black
+    color: black !important
 }
 
 .link-item:hover {
-    color: grey
+    color: grey !important
 }
 
 .active {
