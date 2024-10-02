@@ -13,7 +13,7 @@ export default function Navigation() {
           return (
             <li key={index} className="nav-item">
               <Link
-                to={`/${page === "About" ? "" : page}`}
+                to={`/${page}`}
                 className={`${
                   currentPage === "/" && "active"
                 } nav-link link-item`}
