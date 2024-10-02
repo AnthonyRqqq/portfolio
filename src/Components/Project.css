@@ -1,0 +1,16 @@
+.project-card {
+    border: 3px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 2px 5px 10px black; /* Standard shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .project-card:hover {
+    transform: translate(-5px, -5px); /* Moves the card */
+    box-shadow: 10px 10px 10px black; /* Moves the shadow in the opposite direction */
+  }
+  
