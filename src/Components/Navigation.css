@@ -1,0 +1,31 @@
+.homepage-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15rem;
+}
+
+.standard-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 4rem
+}
+
+.home-link:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.link-item {
+    color: black
+}
+
+.link-item:hover {
+    color: grey
+}
+
+.active {
+    color: grey !important
+}
