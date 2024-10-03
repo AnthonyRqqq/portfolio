@@ -12,5 +12,6 @@
   .project-card:hover {
     transform: translate(-5px, -5px); /* Moves the card */
     box-shadow: 10px 10px 10px black; /* Moves the shadow in the opposite direction */
+    cursor: pointer;
   }
   
