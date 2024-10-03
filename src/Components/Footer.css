@@ -1,0 +1,15 @@
+.footer-logos img {
+  max-width: 3rem;
+}
+
+.footer-logos span:hover {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+  filter: contrast(20%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
