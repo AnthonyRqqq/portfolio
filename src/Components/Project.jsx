@@ -2,9 +2,9 @@ import './Project.css'
 
 export default function Project({ projects }) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
+    <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap'}}>
       {projects.map((project) => (
-        <div key={project.id} className="project-card">
+        <div key={project.id} className="project-card col-3 px-2 mx-3 my-4" >
           {/* Creates link to deployed project */}
           <div className="d-flex justify-content-center align-items-center project-links-div">
             <a
