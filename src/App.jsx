@@ -1,8 +1,10 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Components/Navigation";
 import Footer from "./Components/Footer";
 
 export default function App() {
+  const location = useLocation();
+
   return (
     <div
       style={{
@@ -12,7 +14,7 @@ export default function App() {
         minHeight: "100vh",
       }}
     >
-      <div style={{ flexGrow: 1 }}>
+      <div style={{ flexGrow: location.pathname === "/" ? 0 : 1 }}>
         <header style={{ paddingTop: "1rem" }}>
           <h3>
             <Navigation />
