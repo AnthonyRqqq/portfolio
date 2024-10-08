@@ -5,7 +5,7 @@ import './Navigation.css'
 export default function Navigation() {
   const currentPage = useLocation().pathname;
   const navigate = useNavigate();
-  const pages = ["About", "Contact", "Portfolio", "Resume"];
+  const pages = ["Contact", "Portfolio", "Resume"];
 
   return (
     <div className="row">

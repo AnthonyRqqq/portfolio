@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
 import { About, Contact, Portfolio, Resume, Home } from "./Pages";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
   {
@@ -13,10 +13,6 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
-      },
-      {
-        path: '/About',
-        element: <About />
       },
       {
         path: "/Contact",
