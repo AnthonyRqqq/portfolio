@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
-import { About, Contact, Portfolio, Resume, Home } from "./Pages";
+import { Contact, Portfolio, Resume, Home } from "./Pages";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
@@ -14,10 +14,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: "/Contact",
-        element: <Contact />,
-      },
+      // {
+      //   path: "/Contact",
+      //   element: <Contact />,
+      // },
       {
         path: "/Portfolio",
         element: <Portfolio />,

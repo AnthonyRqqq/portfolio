@@ -4,12 +4,12 @@ export default function Resume() {
   return (
     <div>
       {/* Downloadable resume */}
-      <h4 className="d-flex justify-content-center pb-3">
+      {/* <h4 className="d-flex justify-content-center pb-3">
         Download my resume&nbsp;
         <a href={resumeDownload} download>
           here.
         </a>
-      </h4>
+      </h4> */}
 
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div>
