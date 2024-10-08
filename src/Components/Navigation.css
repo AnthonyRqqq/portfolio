@@ -29,3 +29,7 @@
 .active {
     color: grey !important
 }
+
+.active:hover {
+    cursor: default
+}
