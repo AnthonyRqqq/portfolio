@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import './Navigation.css'
+import "./Navigation.css";
 
 export default function Navigation() {
   const currentPage = useLocation().pathname;
@@ -10,8 +10,15 @@ export default function Navigation() {
   return (
     <div className="row">
       <div>
-        <div className={currentPage === '/' ? 'homepage-navbar' : 'standard-navbar'}>
-          <h1 className="home-link" onClick={() => navigate('/')}>
+        <div
+          className={
+            currentPage === "/" ? "homepage-navbar" : "standard-navbar"
+          }
+        >
+          <h1
+            className={currentPage !== "/" ? `home-link` : ""}
+            onClick={() => navigate("/")}
+          >
             Anthony Rosati
           </h1>
 
