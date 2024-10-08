@@ -10,7 +10,7 @@ export default function Footer() {
       <ul className="row footer-logos" style={{ listStyle: "none" }}>
         {/* Render individual logos with appropriate links, opens new tab when clicked */}
         <li className="col-4">
-          <span target="_blank" href="https://github.com/AnthonyRqqq">
+          <span onClick={() => window.open("https://github.com/AnthonyRqqq")}>
             <img
               className="img-responsive"
               src={githubLogo}
@@ -20,8 +20,11 @@ export default function Footer() {
         </li>
         <li className="col-4">
           <span
-            target="_blank"
-            href="https://www.linkedin.com/in/anthony-rosati-30b616149/"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/anthony-rosati-30b616149/"
+              )
+            }
           >
             <img
               className="img-responsive"
@@ -32,9 +35,9 @@ export default function Footer() {
         </li>
         <li className="col-4">
           <span
-            onClick={() => window.open()}
-            target="_blank"
-            href="https://www.codewars.com/users/AnthonyRqqq"
+            onClick={() =>
+              window.open("https://www.codewars.com/users/AnthonyRqqq")
+            }
           >
             <img
               className="img-responsive"
