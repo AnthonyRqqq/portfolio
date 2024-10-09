@@ -11,10 +11,11 @@ export default function Project({ projects }) {
       }}
     >
       {projects.map((project) => (
-        <div key={project.id} className="project-card col-3 px-2 mx-3 my-4">
+        <div key={project.id} className="project-card col-sm-12 col-md-4 col-lg-3 px-2 mx-3 my-4">
           {/* Creates link to deployed project */}
           <div className="d-flex justify-content-center align-content-center project-links-div mt-1">
             <h4
+              style={{ textDecoration: 'underline'}}
               className="project-title"
               onClick={() => window.open(project.deployedURL, "_blank")}
             >
