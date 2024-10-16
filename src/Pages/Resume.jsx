@@ -1,4 +1,5 @@
 import resumeDownload from "../assets/Anthony-Rosati-Resume.pdf";
+import './Resume.css'
 
 export default function Resume() {
   return (
@@ -11,8 +12,8 @@ export default function Resume() {
         </a>
       </h4> */}
 
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <div>
+      <div style={{ display: "flex", justifyContent: "space-evenly", flexWrap: 'wrap' }}>
+        <div className="proficiency-card mx-2 my-2  col-lg-4 col-md-6 col-sm-6">
           {/* Front end skills list */}
           <div className="d-flex justify-content-center">
             <h4>Front End Proficiencies</h4>
@@ -31,7 +32,7 @@ export default function Resume() {
           </div>
         </div>
 
-        <div>
+        <div className="proficiency-card mx-2 my-2 col-lg-4 col-md-6 col-sm-6">
           {/* Back end skills list */}
           <div className="d-flex justify-content-center">
             <h4>Back End Proficiences</h4>
