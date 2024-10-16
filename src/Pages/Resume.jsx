@@ -5,12 +5,16 @@ export default function Resume() {
   return (
     <div>
       {/* Downloadable resume */}
-      {/* <h4 className="d-flex justify-content-center pb-3">
-        Download my resume&nbsp;
-        <a href={resumeDownload} download>
-          here.
-        </a>
-      </h4> */}
+      <div
+        className="mb-2"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <span className="resume-link py-1 px-2">
+          <a href={resumeDownload} download="Anthony Rosati Resume.pdf">
+            <h4>Download my resume</h4>
+          </a>
+        </span>
+      </div>
 
       <div
         style={{
@@ -19,7 +23,7 @@ export default function Resume() {
           flexWrap: "wrap",
         }}
       >
-        <div className="proficiency-card mx-2 mb-2 col-lg-4 col-md-6 col-sm-6">
+        <div className="proficiency-card mx-2 my-2 col-lg-4 col-md-6 col-sm-6">
           {/* Front end skills list */}
           <div className="d-flex justify-content-center">
             <h4>Front End Proficiencies</h4>
