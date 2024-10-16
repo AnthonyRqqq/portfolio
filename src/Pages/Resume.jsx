@@ -33,7 +33,7 @@ export default function Resume() {
               <li>Responsive Design</li>
               <li>Playwright End-to-End Testing</li>
               <li>
-                <strong>Frameworks:</strong>
+                <strong>Frameworks</strong>
                 <ul>
                   <li>React</li>
                   <li>Bootstrap</li>
