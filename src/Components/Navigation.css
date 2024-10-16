@@ -9,8 +9,13 @@
 .standard-navbar {
     display: flex;
     justify-content: space-between;
-    padding-left: 5rem;
-    padding-right: 4rem
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-link:hover {

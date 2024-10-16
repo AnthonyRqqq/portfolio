@@ -16,7 +16,8 @@ export default function Navigation() {
           }
         >
           <h1
-            className={currentPage !== "/" ? `home-link` : ""}
+            className={currentPage !== "/" ? `home-link mx-3` : "mx-3"}
+            style={{ textAlign: 'center'}}
             onClick={() => navigate("/")}
           >
             Anthony Rosati
@@ -28,6 +29,7 @@ export default function Navigation() {
                 <li key={index} className="nav-item">
                   <Link
                     to={`/${page}`}
+                    
                     className={`nav-link link-item ${
                       currentPage === `/${page}` ? "active" : ""
                     }`}
