@@ -19,7 +19,7 @@ export default function Resume() {
           flexWrap: "wrap",
         }}
       >
-        <div className="proficiency-card mx-2 my-2  col-lg-4 col-md-6 col-sm-6">
+        <div className="proficiency-card mx-2 mb-2 col-lg-4 col-md-6 col-sm-6">
           {/* Front end skills list */}
           <div className="d-flex justify-content-center">
             <h4>Front End Proficiencies</h4>

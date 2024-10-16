@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Components/Navigation";
 import Footer from "./Components/Footer";
+import './App.css'
 
 export default function App() {
   const location = useLocation();

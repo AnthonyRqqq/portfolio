@@ -8,6 +8,11 @@
   filter: contrast(20%);
 }
 
+.footer-logos {
+  padding: 0px;
+  padding-top: 1rem
+}
+
 .footer {
   display: flex;
   justify-content: center;
