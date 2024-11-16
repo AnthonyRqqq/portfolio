@@ -4,7 +4,7 @@ import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
 import plannerScreenshot from "../assets/images/projectImages/planner.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
 import talariaScreenshot from '../assets/images/projectImages/talariaquotes.jpg'
-import savingThrowsScreenshot from '../assets/images/projectImages/savingThrowsScreenshot'
+import savingThrowsScreenshot from '../assets/images/projectImages/savingthrows.jpg'
 
 
 // List of project data to be displayed
