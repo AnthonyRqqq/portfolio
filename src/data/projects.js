@@ -1,13 +1,21 @@
 // Import screenshots
 import dojoScreenshot from "../assets/images/projectImages/dojo.jpg";
 import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
-import javascriptScreenshot from "../assets/images/projectImages/javascriptQuiz.jpg";
 import plannerScreenshot from "../assets/images/projectImages/planner.jpg";
 import weatherDashboardScreenshot from "../assets/images/projectImages/weatherDashboard.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
+import talariaScreenshot from '../assets/images/projectImages/talariaquotes.jpg'
+
 
 // List of project data to be displayed
 const projects = [
+  {
+    name: "Talaria Quotes",
+    githubURL: "https://github.com/AnthonyRqqq/talaria",
+    deployedURL: "https://talariaquotes.com",
+    screenshot: talariaScreenshot,
+    imageText: "screenshot of talaria quotes",
+  },
   {
     name: "TasteBuds",
     githubURL: "https://github.com/Aaron-Heath/tastebuds",
@@ -43,13 +51,7 @@ const projects = [
     screenshot: weatherDashboardScreenshot,
     imageText: "screenshot of a weather dashboard",
   },
-  {
-    name: "JavaScript Quiz",
-    githubURL: "https://github.com/AnthonyRqqq/js-timed-quiz",
-    deployedURL: "https://anthonyrqqq.github.io/js-timed-quiz/",
-    screenshot: javascriptScreenshot,
-    imageText: "screenshot of a timed javascript quiz",
-  },
+
 ];
 
 export default projects;
