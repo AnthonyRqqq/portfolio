@@ -2,13 +2,20 @@
 import dojoScreenshot from "../assets/images/projectImages/dojo.jpg";
 import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
 import plannerScreenshot from "../assets/images/projectImages/planner.jpg";
-import weatherDashboardScreenshot from "../assets/images/projectImages/weatherDashboard.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
 import talariaScreenshot from '../assets/images/projectImages/talariaquotes.jpg'
+import savingThrowsScreenshot from '../assets/images/projectImages/savingThrowsScreenshot'
 
 
 // List of project data to be displayed
 const projects = [
+  {
+    name: 'Saving Throws (WIP)',
+    githubURL: "https://github.com/AnthonyRqqq/saving-throw-app",
+    deployedURL: 'https://savingthrows.onrender.com',
+    screenshot: savingThrowsScreenshot,
+    imageText: 'screenshot of saving throws'
+  },
   {
     name: "Talaria Quotes",
     githubURL: "https://github.com/AnthonyRqqq/talaria",
@@ -44,14 +51,6 @@ const projects = [
     screenshot: plannerScreenshot,
     imageText: "screenshot of a work day scheduler",
   },
-  {
-    name: "Weather Dashboard",
-    githubURL: "https://github.com/AnthonyRqqq/weather-dashboard",
-    deployedURL: "https://anthonyrqqq.github.io/weather-dashboard/",
-    screenshot: weatherDashboardScreenshot,
-    imageText: "screenshot of a weather dashboard",
-  },
-
 ];
 
 export default projects;
