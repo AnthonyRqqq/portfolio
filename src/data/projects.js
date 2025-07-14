@@ -3,18 +3,25 @@ import dojoScreenshot from "../assets/images/projectImages/dojo.jpg";
 import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
 import plannerScreenshot from "../assets/images/projectImages/planner.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
-import talariaScreenshot from '../assets/images/projectImages/talariaquotes.jpg'
-import savingThrowsScreenshot from '../assets/images/projectImages/savingthrows.jpg'
-
+import talariaScreenshot from "../assets/images/projectImages/talariaquotes.jpg";
+import savingThrowsScreenshot from "../assets/images/projectImages/savingthrows.jpg";
+import justChooseScreenshot from "../assets/images/projectImages/justchoosesomething.JPG";
 
 // List of project data to be displayed
 const projects = [
   {
-    name: 'Saving Throws (WIP)',
+    name: "Saving Throws (WIP)",
     githubURL: "https://github.com/AnthonyRqqq/saving-throw-app",
-    deployedURL: 'https://savingthrows.onrender.com',
+    deployedURL: "https://savingthrows.onrender.com",
     screenshot: savingThrowsScreenshot,
-    imageText: 'screenshot of saving throws'
+    imageText: "screenshot of saving throws",
+  },
+  {
+    name: "Just Choose Something",
+    githubURL: "https://github.com/AnthonyRqqq/justchoosesomething",
+    deployedURL: "https://justchoosesomething.com",
+    screenshot: justChooseScreenshot,
+    imageText: "screenshot of just choose something",
   },
   {
     name: "Talaria Quotes",
@@ -44,13 +51,13 @@ const projects = [
     screenshot: dojoScreenshot,
     imageText: "box office dojo screenshot",
   },
-  {
-    name: "Work Day Scheduler",
-    githubURL: "https://github.com/AnthonyRqqq/work-day-scheduler",
-    deployedURL: "https://anthonyrqqq.github.io/work-day-scheduler/",
-    screenshot: plannerScreenshot,
-    imageText: "screenshot of a work day scheduler",
-  },
+  // {
+  //   name: "Work Day Scheduler",
+  //   githubURL: "https://github.com/AnthonyRqqq/work-day-scheduler",
+  //   deployedURL: "https://anthonyrqqq.github.io/work-day-scheduler/",
+  //   screenshot: plannerScreenshot,
+  //   imageText: "screenshot of a work day scheduler",
+  // },
 ];
 
 export default projects;
