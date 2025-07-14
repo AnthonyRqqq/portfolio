@@ -4,7 +4,7 @@ import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
 import talariaScreenshot from "../assets/images/projectImages/talariaquotes.jpg";
 import savingThrowsScreenshot from "../assets/images/projectImages/savingthrows.jpg";
-import justChooseScreenshot from "../assets/images/projectImages/justchoosesomething.jpg";
+import justChooseScreenshot from "../assets/images/projectImages/justchoose.jpg";
 
 // List of project data to be displayed
 const projects = [
