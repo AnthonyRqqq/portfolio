@@ -1,11 +1,10 @@
 // Import screenshots
 import dojoScreenshot from "../assets/images/projectImages/dojo.jpg";
 import tastebudsScreenshot from "../assets/images/projectImages/tastebuds.jpg";
-import plannerScreenshot from "../assets/images/projectImages/planner.jpg";
 import gighubScreenshot from "../assets/images/projectImages/gighub.jpg";
 import talariaScreenshot from "../assets/images/projectImages/talariaquotes.jpg";
 import savingThrowsScreenshot from "../assets/images/projectImages/savingthrows.jpg";
-import justChooseScreenshot from "../assets/images/projectImages/justchoosesomething.JPG";
+import justChooseScreenshot from "../assets/images/projectImages/justchoosesomething.jpg";
 
 // List of project data to be displayed
 const projects = [
@@ -51,13 +50,6 @@ const projects = [
     screenshot: dojoScreenshot,
     imageText: "box office dojo screenshot",
   },
-  // {
-  //   name: "Work Day Scheduler",
-  //   githubURL: "https://github.com/AnthonyRqqq/work-day-scheduler",
-  //   deployedURL: "https://anthonyrqqq.github.io/work-day-scheduler/",
-  //   screenshot: plannerScreenshot,
-  //   imageText: "screenshot of a work day scheduler",
-  // },
 ];
 
 export default projects;
